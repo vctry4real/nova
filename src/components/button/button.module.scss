@@ -1,0 +1,19 @@
+.root {
+  padding-left: 1rem;
+}
+.btn {
+  margin-left: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 25rem;
+  border: 0px solid black;
+  border-radius: 0.6rem;
+  &:hover {
+    background-color: #a8a1a1;
+    border: 0px solid black;
+  }
+  height: 2.5rem;
+  &:focus {
+    box-shadow: -2.26px 4.46px 7px #464343;
+  }
+}
