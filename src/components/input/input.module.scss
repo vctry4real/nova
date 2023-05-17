@@ -1,13 +1,14 @@
 .root {
 }
-$mycolor:red;
+$mycolor: red;
 .input {
   width: 25rem;
   padding: 0rem 1rem;
   border-radius: 0.5rem;
-  border: 1px solid black;
+  border: 0.1px solid black;
   height: 2rem;
   &:hover {
     background-color: rgb(168, 161, 161);
   }
+  margin: 0rem 2rem;
 }

@@ -1,2 +1,74 @@
 .root {
 }
+.rf {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2.5rem;
+  margin-top: 2rem;
+}
+.p {
+  margin: 0rem 0rem 0rem 0.5rem;
+}
+.a {
+  margin: 0rem 0rem 0rem 9rem;
+  color: #1d1c1c;
+}
+.btn_submit {
+  margin-right: 2rem;
+  margin-left: 3rem;
+  width: 25rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: 0px solid black;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  &:hover {
+    background-color: rgb(168, 161, 161);
+    color: #ece5e5;
+  }
+  &:focus {
+    box-shadow: 3px 3px 2px black, -2.26px 3px 7px #464343;
+  }
+}
+.h2 {
+  text-align: center;
+  font-weight: 800;
+}
+.h4 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.formbot {
+  display: flex;
+  align-items: center;
+  gap: 0em 1em;
+  margin-top: 0rem;
+  margin-left: 8rem;
+}
+.input {
+  font-size: 0rem;
+  padding: 0rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgba(168, 167, 167, 0.07) 0%,
+    rgba(206, 204, 204, 0.07) 19%,
+    rgba(228, 224, 224, 0.07) 39%,
+    rgba(195, 194, 194, 0.07) 65%,
+    rgba(243, 240, 240, 0.07) 80%,
+    rgba(176, 176, 176, 0.07) 98%
+  );
+  background-position: 0% 0%;
+  background-size: auto auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  background-clip: border-box;
+}

@@ -14,7 +14,7 @@ export interface LabelsProps {
 export const Labels = ({ className, children }: LabelsProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <label>{children}</label>
+            <label className={styles.label}>{children}</label>
         </div>
     );
 };

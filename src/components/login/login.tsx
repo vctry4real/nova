@@ -15,7 +15,9 @@ export interface LoginProps {
 export const Login = ({ className }: LoginProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <div>
+            <div className={styles.container}>
+                <h2 className={styles.h2}>V-TechHub</h2>
+                <h4 className={styles.h4}>Welcome Back </h4>
                 <form>
                     <Labels>{'Email address'}</Labels>
                     <br />
@@ -24,11 +26,22 @@ export const Login = ({ className }: LoginProps) => {
                     <Labels>{'Password'}</Labels>
                     <br />
                     <Input />
-                    <button>Submit</button>
+                    <div className={styles.rf}>
+                        <input type="checkbox" className={styles.input} />
+                        <p className={styles.p}>Remember me</p>
+                        <a href="/" className={styles.a}>
+                            Forgot password ?
+                        </a>
+                    </div>
+                    <button className={styles.btn_submit}>Submit</button>
                     <br />
                     <Button>Google</Button>
+                    <Button>Facebook</Button>
+                    <div className={styles.formbot}>
+                        <p>Don&apos;t have an account ? </p>
+                        <a href="/">Sign up</a>
+                    </div>
                 </form>
-                <Button>Facebook</Button>
             </div>
         </div>
     );
