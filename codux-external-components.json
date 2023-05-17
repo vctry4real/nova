@@ -1,0 +1,13 @@
+[  
+    {
+        "name": "React icons",
+        "components": [
+            {
+                "filePath": "react-icons/fc",
+                "exportName": "FcGoogle",
+                "name": "Google icon"
+            }
+            
+        ]
+    }
+]  

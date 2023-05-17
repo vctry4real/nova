@@ -1,0 +1,37 @@
+.root {
+}
+.nav_container {
+  display: flex;
+  align-items: center;
+  gap: 0em 4em;
+  width: 100%;
+  flex-direction: row;
+  color: #2e2c2c;
+  background-color: rgba(240, 240, 240, 0.3);
+}
+.select {
+  display: flex;
+  flex-direction: row;
+}
+.login_btn {
+  width: 5rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  &:hover {
+    background-color: #a8a1a1;
+    color: #eee9e9;
+  }
+  &:focus {
+    box-shadow: inset -2.26px 4.46px 7px black;
+    opacity: 0.7;
+  }
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0em 4em;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
