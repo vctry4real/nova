@@ -25,6 +25,7 @@ export const Login = ({ className }: LoginProps) => {
                     <br />
                     <Labels>{'Password'}</Labels>
                     <br />
+                    \
                     <Input />
                     <div className={styles.rf}>
                         <input type="checkbox" className={styles.input} />

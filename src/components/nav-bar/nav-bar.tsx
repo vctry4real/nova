@@ -16,11 +16,13 @@ export const NavBar = ({ className }: NavBarProps) => {
             <div className={styles.nav_container}>
                 <nav className={styles.nav}>
                     <h3>V-TechHub</h3>
-                    <NavLink>Service</NavLink>
-                    <NavLink>{'About us'}</NavLink>
-                    <NavLink>{'Blog'}</NavLink>
-                    <NavLink>Contact us</NavLink>
-                    <button className={styles.login_btn}>Login</button>
+                    <div className={styles.navlink_container}>
+                        <NavLink>Service</NavLink>
+                        <NavLink>{'About us'}</NavLink>
+                        <NavLink>{'Blog'}</NavLink>
+                        <NavLink>Contact us</NavLink>
+                        <button className={styles.login_btn}>Login</button>
+                    </div>
                 </nav>
             </div>
         </div>
