@@ -3,5 +3,9 @@ import { LandingPage } from '../../../components/landing-page/landing-page';
 
 export default createBoard({
     name: 'LandingPage',
-    Board: () => <LandingPage />
+    Board: () => <LandingPage />,
+    environmentProps: {
+        canvasWidth: 1271,
+        windowWidth: 1292,
+    },
 });
