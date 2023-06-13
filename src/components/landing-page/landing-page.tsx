@@ -2,7 +2,11 @@ import styles from './landing-page.module.scss';
 import classNames from 'classnames';
 import { NavBar } from '../nav-bar/nav-bar';
 import ai from '../../assets/ai.png';
+import AI2 from '../../assets/AI2.png';
+import AVR from '../../assets/AVR.png';
+import Robotic from '../../assets/Robotic.png';
 import blockchain from '../../assets/blockchain.png';
+import { Cards } from '../cards/cards';
 
 export interface LandingPageProps {
     className?: string;
@@ -33,6 +37,8 @@ export const LandingPage = ({ className }: LandingPageProps) => {
                         <button className={styles.btn}>Get Started</button>
                     </div>
                 </div>
+                <br />
+                <br />
                 <div className={styles.dyk_container}>
                     <h3 className={styles.h3}>Did You Know ?</h3>
                     <div className={styles.dyk_items}>
@@ -68,6 +74,8 @@ export const LandingPage = ({ className }: LandingPageProps) => {
                             </article>
                         </div>
                     </div>
+                    <br />
+                    <br />
                     <div className={styles.dyk_items}>
                         <div className={styles.image_container}>
                             <div className={styles.dyk_item_image}>
@@ -100,6 +108,58 @@ export const LandingPage = ({ className }: LandingPageProps) => {
                             </article>
                         </div>
                     </div>
+                </div>
+                <br />
+                <br />
+                <div>
+                    <h3 className={styles.h3}>
+                        We Are Your Eyes And Ears To Technological Advancements
+                    </h3>
+                    <div className={styles.article_container}>
+                        <article className={styles.article}>
+                            <p className={styles.p}>
+                                In today&apos;s rapidly evolving world, staying updated with
+                                technological advancements is vital. As your eyes and ears to this
+                                ever-changing landscape, we curate the most relevant information,
+                                explore emerging technologies, share industry insights, address
+                                ethical implications, and foster a vibrant tech community. By
+                                following our blog, you will gain the knowledge and perspective
+                                needed to navigate the tech-driven era, seize opportunities, and
+                                contribute to shaping the future. Join us on this exciting journey
+                                as we continue to be your trusted source for all things tech.
+                            </p>
+                        </article>
+                    </div>
+                    <div className={styles.cards_container}>
+                        <Cards>
+                            <div>
+                                <h4>AI as a service</h4>
+                                <p>Unlock the Power, Unleash AI&apos;s Brilliance!</p>
+                                <a href="/">Take a look &gt;&gt;</a>
+                                <br />
+                                <img src={AI2} className={styles.ai_image} />
+                            </div>
+                        </Cards>
+                        <Cards>
+                            <div>
+                                <h4>Virtual and Augmented Reality</h4>
+                                <p>Step into the Unreal, Embrace the Augmented</p>
+                                <a href="/">Take a look &gt;&gt;</a>
+                                <br />
+                                <img src={AVR} className={styles.ai_image} />
+                            </div>
+                        </Cards>
+                        <Cards>
+                            <div>
+                                <h4>Robotics</h4>
+                                <p>Robotic Revolution: Where Innovation Meets Automation!</p>
+                                <a href="/">Take a look &gt;&gt;</a>
+                                <br />
+                                <img src={Robotic} className={styles.ai_image} />
+                            </div>
+                        </Cards>
+                    </div>
+                    <br />
                 </div>
             </section>
         </div>

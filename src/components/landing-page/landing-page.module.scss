@@ -63,13 +63,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 60vh;
 }
 .dyk_container {
   background-color: rgba(240, 240, 240, 0.3);
+  height: auto;
 }
 .dyk_item_image {
-  width: 0rem;
+  width: 20rem;
   padding-bottom: 0rem;
+  border: 0px solid black;
+  border-radius: 1rem;
+  box-shadow: 2.12px 2.12px 6px black;
 }
 .dyk_content {
   padding: 1rem;
@@ -79,17 +84,20 @@
 .dyk_article {
   text-align: center;
   height: auto;
-  border: 1px solid black;
+  border: 0px solid black;
   padding: 1rem;
   border-radius: 1rem;
   background-color: #dad6d6;
-  width: 40rem;
+  width: 55rem;
+  margin-left: 0rem;
+  margin-right: 1rem;
+  box-shadow: 2.83px 2.83px 7px black;
 }
 .dyk_items {
   display: flex;
   grid-template-columns: 1fr 1fr;
   flex-direction: row;
-  gap: 0em 25em;
+  gap: 20em;
   justify-content: center;
 }
 .h3 {
@@ -99,9 +107,41 @@
   border-radius: 0rem;
   border: 0px solid black;
   padding: 1rem;
-  width: 20rem;
+  width: 0rem;
+  margin-left: 1rem;
 }
 .ai {
   border-radius: 1rem;
-  width: 30rem;
+  width: 20rem;
+}
+.h3 {
+  text-align: center;
+}
+.article {
+  border: 0px solid black;
+  width: auto;
+}
+.p {
+  text-align: center;
+}
+.article_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+}
+.ai_image {
+  border-radius: 0.6rem;
+  margin-top: 1rem;
+  width: 11rem;
+}
+.cards_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0em 2em;
+  width: 60rem;
+  margin-right: 0rem;
+  margin-left: 11rem;
+  margin-top: 2rem;
 }
