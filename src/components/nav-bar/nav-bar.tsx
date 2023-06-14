@@ -17,10 +17,18 @@ export const NavBar = ({ className }: NavBarProps) => {
                 <nav className={styles.nav}>
                     <h3>V-TechHub</h3>
                     <div className={styles.navlink_container}>
-                        <NavLink>Service</NavLink>
-                        <NavLink>{'About us'}</NavLink>
-                        <NavLink>{'Blog'}</NavLink>
-                        <NavLink>Contact us</NavLink>
+                        <NavLink>
+                            <a href="/service">Service</a>
+                        </NavLink>
+                        <NavLink>
+                            <a href="/about">About us</a>
+                        </NavLink>
+                        <NavLink>
+                            <a href="/blog">Blog</a>
+                        </NavLink>
+                        <NavLink>
+                            <a href="/contact">Contact us</a>
+                        </NavLink>
                         <button className={styles.login_btn}>Login</button>
                     </div>
                 </nav>

@@ -14,11 +14,7 @@ export const NavLink = ({ className, children }: NavLinkProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <div className={styles.container}>
-                <nav>
-                    <a href="/" className={styles.a}>
-                        {children}
-                    </a>
-                </nav>
+                <nav>{children}</nav>
             </div>
         </div>
     );
