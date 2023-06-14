@@ -1,6 +1,5 @@
 import styles from './landing-page.module.scss';
 import classNames from 'classnames';
-import { NavBar } from '../nav-bar/nav-bar';
 import ai from '../../assets/ai.png';
 import AI2 from '../../assets/AI2.png';
 import AVR from '../../assets/AVR.png';
@@ -20,7 +19,6 @@ export const LandingPage = ({ className }: LandingPageProps) => {
     return (
         <div className={classNames(styles.root, className)}>
             <section className={styles.container}>
-                <NavBar />
                 <h2 className={styles.h2}>Welcome to V-TechHub</h2>
                 <h4 className={styles.h4}> Where Innovation Meets Collaboration!</h4>
                 <br />

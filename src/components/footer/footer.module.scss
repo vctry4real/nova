@@ -1,2 +1,48 @@
 .root {
 }
+.h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.h2 {
+  text-align: center;
+  font-weight: 300;
+}
+.p {
+  text-align: center;
+}
+.logos {
+}
+.footer_content {
+  padding: 1rem;
+}
+.footer_container {
+  background-color: rgba(240, 235, 235, 0.37);
+}
+.footer_base {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0em 18em;
+  padding-left: 1rem;
+  text-align: start;
+  border: 1px solid black;
+  border-left: 0px solid black;
+  border-right: 0px solid black;
+  border-bottom: 0px solid black;
+  border-top: 3px solid black;
+  align-content: center;
+  justify-content: center;
+}
+.tel_no {
+  margin-left: 0rem;
+  display: flex;
+  text-align: start;
+  padding-left: 0rem;
+}
+.cr {
+  text-align: center;
+  display: flex;
+}
+.container {
+  margin-top: 3rem;
+}

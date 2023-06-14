@@ -6,6 +6,26 @@
                 "filePath": "react-icons/fc",
                 "exportName": "FcGoogle",
                 "name": "Google icon"
+            },
+            {
+                "filePath": "react-icons/fa",
+                "exportName": "FaSquareFacebook",
+                "name": "Facebook icon"
+            },
+            {
+                "filePath": "react-icons/ai",
+                "exportName": "AiFillInstagram",
+                "name": "Instagram icon"
+            },
+            {
+                "filePath": "react-icons/bs",
+                "exportName": "BsTwitter",
+                "name": "Twitter icon"
+            },
+            {
+                "filePath": "react-icons/md",
+                "exportName": "MdAttachEmail",
+                "name": "Email icon"
             }
             
         ]
